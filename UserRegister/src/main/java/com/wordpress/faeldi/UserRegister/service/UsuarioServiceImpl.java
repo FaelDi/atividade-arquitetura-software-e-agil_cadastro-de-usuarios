@@ -55,6 +55,8 @@ public class UsuarioServiceImpl implements UsuarioService{
 			Usuario usuario = usuarioOp.get();
 			usuario.setNome(usuarioDTO.getNome());
 			usuario.setEmail(usuarioDTO.getEmail());
+			usuario.setEndereco(usuarioDTO.getEndereco());
+			usuario.setCpf(usuarioDTO.getCpf());
 			usuario.setId(id);
 			usuario = repository.save(usuario);
 			return mapper.parseDTO(usuario);
