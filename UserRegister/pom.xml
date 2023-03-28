@@ -79,7 +79,7 @@
 			<classifier>jakarta</classifier>
 			<version>${querydsl.version}</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>javax.persistence-api</artifactId>
