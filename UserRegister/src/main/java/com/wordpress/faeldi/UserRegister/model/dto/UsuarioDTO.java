@@ -1,10 +1,12 @@
 package com.wordpress.faeldi.UserRegister.model.dto;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.validator.constraints.br.CPF;
 
-@Data
+import javax.persistence.GenerationType;
+
+@Getter
+@Setter
 @NoArgsConstructor
 public class UsuarioDTO {
 
